@@ -45,15 +45,17 @@ function NavigationHeader() {
 
           <div className="flex items-center gap-4">
             <SignedOut>
-              <Link
-                href="/pricing"
-                className="flex items-center gap-3 px-5 py-3 rounded-xl bg-gradient-to-r from-amber-500/20 to-orange-500/20 border border-amber-500/30 hover:border-amber-400/50 transition-all duration-300 card-hover shadow-glow energy-pulse"
-              >
-                <Sparkles className="w-5 h-5 text-amber-400" />
-                <span className="text-sm font-semibold text-amber-300">
-                  Quantum Upgrade
-                </span>
-              </Link>
+            <Link
+  href="/pricing"
+  className="flex items-center gap-3 px-5 py-3 rounded-xl border border-amber-500/50 bg-black/30 hover:bg-amber-500/10 transition-all duration-300"
+>
+  <Sparkles className="w-5 h-5 text-amber-400" />
+  <span className="text-sm font-semibold text-amber-300">
+    Quantum Upgrade
+  </span>
+</Link>
+
+
             </SignedOut>
             <HeaderProfileBtn />
           </div>
